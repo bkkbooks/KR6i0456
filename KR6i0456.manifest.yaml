@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR6i0456/v1
+canonical_location: https://kanripo.org/bkk/KR6i0456/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大藏正教血盆經
+  identifiers:
+    alt_id:
+    - X01n0023
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X01/X01n0023.xml
+    old_id: X01n0023
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0456_000.yaml, hash: 'sha256:9709040e1998c909b29b29a80746b0f22ed0ee3793844da5b8c189de2c79df93'}
+  - {seq: 1, filename: KR6i0456_001.yaml, hash: 'sha256:8542edebba5664d2b7fb4894e5d81d2e097009db862bcb20b4543aa77936860e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0456_001.markers.yaml, hash: 'sha256:90c2031bc5b5d44038d8e3560290a443d34a6ce4ebad5fe7dfd9127d15c9a4f9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0456_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 420
+  label: 佛說大藏正教血盆經
+  type: juan
+  level: 1
+hash: sha256:f4b2aa16b4b99846954cc1ad7dffc0eb6ec1b06f547a88f6e901ab65ffbaaa9d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: X

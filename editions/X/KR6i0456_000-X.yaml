@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0456/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大藏正教血盆經
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X01/X01n0023.xml
+    old_id: X01n0023
+hash: sha256:9709040e1998c909b29b29a80746b0f22ed0ee3793844da5b8c189de2c79df93

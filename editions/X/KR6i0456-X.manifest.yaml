@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0456/X/v1
+canonical_location: https://kanripo.org/bkk/KR6i0456/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大藏正教血盆經
+  identifiers:
+    krp: KR6i0456
+    cbeta: X01n0023
+    cbeta_old_id: X01n0023
+    authorityid: CA0003672
+    json_key: X0023
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X01/X01n0023.xml
+    old_id: X01n0023
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0456_000-X.yaml, hash: 'sha256:9709040e1998c909b29b29a80746b0f22ed0ee3793844da5b8c189de2c79df93'}
+  - {seq: 1, filename: KR6i0456_001-X.yaml, hash: 'sha256:9be8f739c9e0771362a14a5d0999f73fa124654d4fb175d80324598e9c4848e6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0456_000-X.markers.yaml, hash: 'sha256:2d011af1bbd60d303ff803e7fae214af2fbb148ee55aee4f45e5f30d4c270a35'}
+  - {seq: 1, role: markers, filename: assets/KR6i0456_001-X.markers.yaml, hash: 'sha256:f808f05378b5df3edf6e81d1b60d28d4d67ae5026e96ffe4d2708493294fca77'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0456_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 420
+  label: 佛說大藏正教血盆經
+  type: juan
+  level: 1
+hash: sha256:cd9cb5f2176d41e2ed8b36a28d5754fc6c8718cc615025a0d154d4fb34a1cfec

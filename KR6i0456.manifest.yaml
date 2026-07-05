@@ -17,9 +17,10 @@ metadata:
 assets:
   parts:
   - {seq: 0, filename: KR6i0456_000.yaml, hash: 'sha256:9709040e1998c909b29b29a80746b0f22ed0ee3793844da5b8c189de2c79df93'}
-  - {seq: 1, filename: KR6i0456_001.yaml, hash: 'sha256:8542edebba5664d2b7fb4894e5d81d2e097009db862bcb20b4543aa77936860e'}
+  - {seq: 1, filename: KR6i0456_001.yaml, hash: 'sha256:9be8f739c9e0771362a14a5d0999f73fa124654d4fb175d80324598e9c4848e6'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0456_001.markers.yaml, hash: 'sha256:90c2031bc5b5d44038d8e3560290a443d34a6ce4ebad5fe7dfd9127d15c9a4f9'}
+  - {seq: 0, role: markers, filename: assets/KR6i0456_000.markers.yaml, hash: 'sha256:f06e746fa649c6e23954e63ced3c28ed4f42ffa8b3144747fe9e28bf8a2fc484'}
+  - {seq: 1, role: markers, filename: assets/KR6i0456_001.markers.yaml, hash: 'sha256:5378072a770403688cc9f52a4440313546d15f88b1af5ea0bd98e9103b7ecaa2'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,9 +32,6 @@ table_of_contents:
   label: 佛說大藏正教血盆經
   type: juan
   level: 1
-hash: sha256:f4b2aa16b4b99846954cc1ad7dffc0eb6ec1b06f547a88f6e901ab65ffbaaa9d
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:174d2306b6a7f44a9982252550086df4198d6250959d8b03e715d031fc533ad5
 editions:
 - short: X

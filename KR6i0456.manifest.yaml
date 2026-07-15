@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0456/v1
 canonical_location: https://kanripo.org/bkk/KR6i0456/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大藏正教血盆經
   identifiers:
@@ -17,10 +17,10 @@ metadata:
 assets:
   parts:
   - {seq: 0, filename: KR6i0456_000.yaml, hash: 'sha256:9709040e1998c909b29b29a80746b0f22ed0ee3793844da5b8c189de2c79df93'}
-  - {seq: 1, filename: KR6i0456_001.yaml, hash: 'sha256:9be8f739c9e0771362a14a5d0999f73fa124654d4fb175d80324598e9c4848e6'}
+  - {seq: 1, filename: KR6i0456_001.yaml, hash: 'sha256:16cd515645ab05b24cca58e61cb955763a768f40d3d44c7fa1cf73820fa54e1a'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0456_000.markers.yaml, hash: 'sha256:f06e746fa649c6e23954e63ced3c28ed4f42ffa8b3144747fe9e28bf8a2fc484'}
-  - {seq: 1, role: markers, filename: assets/KR6i0456_001.markers.yaml, hash: 'sha256:5378072a770403688cc9f52a4440313546d15f88b1af5ea0bd98e9103b7ecaa2'}
+  - {seq: 1, role: markers, filename: assets/KR6i0456_001.markers.yaml, hash: 'sha256:13ff1be8f4dbcb3e9707129eefb305f741045801b61c7a8712ea379b2e4f32c1'}
 table_of_contents:
 - ref:
     seq: 1
@@ -32,6 +32,9 @@ table_of_contents:
   label: 佛說大藏正教血盆經
   type: juan
   level: 1
-hash: sha256:174d2306b6a7f44a9982252550086df4198d6250959d8b03e715d031fc533ad5
+hash: sha256:39a24cb08453d58f292571ef2fe991357a61baade945d8279adf1d2544fc3693
 editions:
 - short: X
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
